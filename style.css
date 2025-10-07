@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+p{
+    font-family: 'lato';
+}
+
+
+/* Fixed navbar that overlays the banner */
+.navbar-fixed-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* background: rgba(0, 0, 0, 0.1) !important; */
+    /* backdrop-filter: blur(10px); */
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand img {
+    height: 40px;
+    /* filter: brightness(0) invert(1);  */
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 600;
+    margin: 0 10px;
+    font-size: 0.97rem;
+    font-family: 'Rajdhani';
+}
+
+ .navbar-nav .nav-link:hover {
+    color: #f8f9fa !important;
+    opacity: 0.8;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+ .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Banner section - full viewport height */
+.background-banner {
+    background-image: url("assets/images/banner.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Dark overlay for better text readability */
+.background-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.banner-content {
+    text-align: center;
+    color: white;
+    z-index: 2;
+    position: relative;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.banner-title {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    line-height: 1.1;
+}
+
+.banner-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.h-2-p-body{
+    text-align: center;
+    padding: 7%;
+    height: 42dvh;
+    
+
+
+}
+.col-image img{
+   
+    object-fit: cover;
+    width: 100%;
+   
+   
+}
+
+.col-text{
+    padding: 7%;
+}
+
+.col-text h2{
+    font-family: 'Permanent Marker';
+}
+.col-text p{
+    font-family: 'lato';
+    font-weight:300;
+}
+
+
+.icon img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.text-body-2{
+    padding: 5%;
+}
+
+.text-body-2 p{
+    width: 60%;
+    margin: auto;
+    font-size: 0.9rem;
+}
+
+.feature-box p{
+    font-size: 0.7rem;
+    padding: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .banner-title {
+        font-size: 2.8rem;
+        letter-spacing: 2px;
+    }
+
+    .banner-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .navbar-fixed-overlay {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-title {
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+    }
+
+    .banner-subtitle {
+        font-size: 1rem;
+    }
+
+    .navbar-fixed-overlay .navbar-nav .nav-link {
+        margin: 5px 0;
+    }
+}

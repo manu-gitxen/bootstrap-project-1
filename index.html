@@ -1,13 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
     <title>cafe</title>
 </head>
+
 <body>
-    <header>
-        
+   <header>
+<nav class="navbar navbar-expand-lg navbar-fixed-overlay">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="assets/icons/brand-logo.png" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Fungi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promyc®</a>
+                    </li>
+                    <li class="nav-item nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">TechMyc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MycoTalks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <button class="btn text-light" type="submit">
+  <i class="bi bi-search"></i>
+</button>
+
+
+        </div>
+    </nav>
+
+    <!-- Banner Section - full screen with navbar overlay -->
+    <section class="background-banner">
+        <div class="banner-content">
+            <h1 class="banner-title">QUITE A BORING INGREDIENT</h1>
+            <p class="banner-subtitle">Promyc - the next level mycoprotein ingredient.</p>
+        </div>
+    </section>
+
+
     </header>
+
+    <main>
+        <section>
+            <div class="container-fluid  h-2-p-body-width ">
+                <div class="h-2-p-body align-items-center ">
+                    <h2>Promyc® as an Industrial Ingredient</h2>
+                    <p>Promyc® is a vegan mycoprotein ingredient produced through biotechnology with the fermentation process as a core. 
+                        Our production process allows us to implement a lot more time-, and cost- and feedstock-efficient than traditional farming, 
+                        with much less environmental impact.
+                         It also enables the decentralization of food production, making it possible to produce Promyc® wherever needed. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row content-display ">
+                    <div class="col-md-6 col-image p-0">
+                        <img src="assets/images/Mycorena_1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 col-text bg-dark text-light">
+                        <h2>Promyc 1.0</h2>
+                        <p>Promyc® is in fact quite a boring ingredient – neutral colour, taste, and smell. But boring doesn’t
+                             necessarily mean a bad thing. Besides being neutral in colour, taste, and smell, 
+                             Promyc is a sustainable mycoprotein ingredient that can be used to produce
+                              vegan food products and that brings a great source of fibre and protein, nutrition,
+                               and healthy vitamins while offering a great texture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="text-body-2 text-center ">
+                    <h3>High Nutritional value</h3>
+                    <p>“No compromises” means a tasty experience without hurting you, 
+                        the environment, or anything else really. Great meals come with
+                         proper balanced nutrition, 
+                        which helps you get full of energy.
+                    </p>
+                </div>
+                <div class="details">
+<div class="row text-center">
+      
+      <div class="col-6 col-md-3 mb-4 feature-box">
+        <div class="icon"><img src="assets/icons/less-fat.svg" alt="less-fat"></div>
+        <h5>Low-fat</h5>
+        <p>Less than 3%</p>
+      </div>
+
+     
+      <div class="col-6 col-md-3 mb-4 feature-box">
+        <div class="icon"><img src="assets/icons/Source-of-Fibre.svg" alt="Source-of-Fibre"></div>
+        <h5>Source of Fibre</h5>
+        <p>More than 3%</p>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4 feature-box">
+        <div class="icon"><img src="assets/icons/Source-of-Protein.svg" alt="Source-of-Protein"></div> 
+        <h5>Source of Protein</h5>
+        <p>Contains all essential amino acids</p>
+      </div>
+
+      
+      <div class="col-6 col-md-3 mb-4 feature-box">
+        <div class="icon"><img src="assets/icons/Sugar-free.svg" alt="Sugar-free"></div>
+        <h5>Sugar-free</h5>
+        <p>Less than 0.5%</p>
+      </div>
+    </div>
+
+  </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
