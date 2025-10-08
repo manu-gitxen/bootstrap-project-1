@@ -50,7 +50,7 @@ p{
 
 /* Banner section - full viewport height */
 .background-banner {
-    background-image: url("assets/images/banner.jpg") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/images/banner.jpg") ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -163,7 +163,74 @@ p{
     padding-bottom:4% ;
 }
 
+.col-text-2{
+    padding: 6%;
+}
 
+.card-img-top{
+    width: 250px;
+    margin: auto;
+}
+
+.promyc-img{
+    width: 230px;
+    margin: auto;
+}
+
+.col-text-3 h2{
+    width: 80%;
+    
+}
+
+.sub-input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: 2px solid white;
+    width: 300px;
+}
+
+.sub-h4 h4{
+    color: white;
+    font-family: 'Rajdhani';
+    font-weight: 600;
+}
+
+    .contact-info {
+      padding: 20px;
+    }
+    .contact-item {
+      margin-bottom: 10px;
+    }
+    .contact-item i {
+      margin-right: 8px;
+      color:rgb(156, 156, 156);
+    }
+    .contact-item span{
+        color: rgb(156, 156, 156);
+        font-size: 12px;
+    }
+
+    .list-group li{
+        background: none;
+        border: none;
+        color: rgb(156, 156, 156);
+        font-size: 12px;
+    }
+    .footer-content{
+        padding: 5%;
+    }
+
+    .footer-bg{
+        background: black;
+    }
+
+    .terms a,label{
+        color: white;
+    }
+
+    
 
 
 
